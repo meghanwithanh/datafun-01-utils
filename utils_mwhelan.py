@@ -10,8 +10,6 @@ A good byline could be used in every Python analytics project we do.
 
 Author: Meghan Whelan
 
-TODO: Change the module name in this opening docstring
-TODO: Change the author in this opening docstring
 """
 
 #####################################
