@@ -27,46 +27,46 @@ import statistics  # provides mean(), stdev() and more....
 
 # declare a boolean variable (has a value True or False)
 # TODO: Add another or replace this with your own boolean variable
-has_international_clients: bool = True
+is_publicly_funded: bool = True
 
 # declare an integer variable 
 # TODO: Add or replace this with your own integer variable
-years_in_operation: int = 10
+number_of_students_awarded: int = 4
 
 # declare a floating point variable
 # TODO: Add or replace this with your own floating point variable
-average_client_satisfaction: float = 4.7
+average_amount_of_grants: float = 1166.45
 
 # declare a list of strings
 # TODO: Add or replace this with your own list  
-skills_offered: list = ["Data Analysis", "Machine Learning", "Business Intelligence"]
+grants_offered: list = ["PELL", "Access Missouri", "SEOG"]
 
 # declare a list of numbers so we can illustrate statistics skills
 # TODO: Add or replace this with your own numeric list  
-client_satisfaction_scores: list = [4.8, 4.6, 4.9, 5.0, 4.7]
+amount_of_grants: list = [700.5, 54.75, 3400.3, 510.25]
 
 # Calculate basic statistics using built-in Python functions and the statistics module
 # TODO: Replace these variable names with the variable name of your own numeric list
-min_score: float = min(client_satisfaction_scores)  
-max_score: float = max(client_satisfaction_scores)  
-mean_score: float = statistics.mean(client_satisfaction_scores)  
-stdev_score: float = statistics.stdev(client_satisfaction_scores)
+min_grant: float = min(amount_of_grants)  
+max_grant: float = max(amount_of_grants)  
+mean_grant: float = statistics.mean(amount_of_grants)  
+stdev_grant: float = statistics.stdev(amount_of_grants)
 
 # Use a Python formatted string (f-string) to show information
 # TODO: Modify the text in the byline to fit your information
 # TODO: Modify the variables in the byline to use your variable names
 byline: str = f"""
 ---------------------------------------------------------
-Stellar Analytics: Delivering Professional Insights
+Higher Education in Missouri: Public Grants
 ---------------------------------------------------------
-Has International Clients:  {has_international_clients}
-Years in Operation:         {years_in_operation}
-Skills Offered:             {skills_offered}
-Client Satisfaction Scores: {client_satisfaction_scores}
-Minimum Satisfaction Score: {min_score}
-Maximum Satisfaction Score: {max_score}
-Mean Satisfaction Score: {mean_score:.2f}
-Standard Deviation of Satisfaction Scores: {stdev_score:.2f}
+Is publicly funded:          {is_publicly_funded}
+Number of students awarded:  {number_of_students_awarded}
+Grants Offered:              {grants_offered}
+Amount of Grants:            {amount_of_grants}
+Minimum Grant Amount:        {min_grant}
+Maximum Grant Amount:        {max_grant}
+Mean Grant Amount: {mean_grant:.2f}
+Standard Deviation of Grant Amounts: {stdev_grant:.2f}
 """
 
 #####################################
