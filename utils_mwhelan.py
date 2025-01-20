@@ -65,7 +65,7 @@ Grants Offered:              {grants_offered}
 Amount of Grants:            {amount_of_grants}
 Minimum Grant Amount:        {min_grant}
 Maximum Grant Amount:        {max_grant}
-Mean Grant Amount: {mean_grant:.2f}
+Mean Grant Amount:           {mean_grant:.2f}
 Standard Deviation of Grant Amounts: {stdev_grant:.2f}
 """
 
