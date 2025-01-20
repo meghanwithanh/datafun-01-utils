@@ -4,9 +4,9 @@ Module: utils_mwhelan
 
 Purpose: Reusable Module for My Analytics Projects
 
-Description: This module provides a byline for my analytics projects. 
-When we work hard to write useful code, we want it to be reusable.
-A good byline could be used in every Python analytics project we do.
+Description: This module provides data for publicly funded grant amounts
+    awarded to students attending institutions of higher learning
+    in Missouri.
 
 Author: Meghan Whelan
 
